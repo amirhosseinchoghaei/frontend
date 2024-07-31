@@ -143,11 +143,11 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
     if (isCloudLoaded) {
       pages.push({
         component: "cloud",
-        path: "/config/cloud",
-        name: "Home Assistant Cloud",
-        info: cloudStatus,
+        path: "/config/cloud2",
+        name: "ارتباط ابری",
+        info: "خانه خود را از راه دور کنترل کنید",
         iconPath: mdiCloudLock,
-        iconColor: "#3B808E",
+        iconColor: "#4c00a7",
         translationKey: "cloud",
       });
     }
