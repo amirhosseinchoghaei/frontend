@@ -144,7 +144,7 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
       pages.push({
         component: "cloud",
         path: "/config/cloud2",
-        name: "ارتباط ابری",
+        name: "Cloud",
         info: "خانه خود را از راه دور کنترل کنید",
         iconPath: mdiCloudLock,
         iconColor: "#4c00a7",
