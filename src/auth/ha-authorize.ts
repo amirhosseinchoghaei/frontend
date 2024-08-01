@@ -208,7 +208,7 @@ export class HaAuthorize extends litLocalizeLiteMixin(LitElement) {
           @value-changed=${this._languageChanged}
         ></ha-language-picker>
         <a
-          href="https://www.home-assistant.io/docs/authentication/"
+          href="https://reverseco.net/docs/authentication/"
           target="_blank"
           rel="noreferrer noopener"
           >${this.localize("ui.panel.page-authorize.help")}</a
