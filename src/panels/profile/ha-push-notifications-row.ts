@@ -40,7 +40,7 @@ class HaPushNotificationsRow extends LitElement {
             `ui.panel.profile.push_notifications.${descriptionKey}`
           )}
          
-          >
+          
         </span>
         <ha-push-notifications-toggle
           .hass=${this.hass}
