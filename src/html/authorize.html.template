@@ -46,6 +46,7 @@
   <body>
     <div class="content">
       <div class="header">
+        <h2>Reverse</h2>
       </div>
       <ha-authorize></ha-authorize>
     </div>
