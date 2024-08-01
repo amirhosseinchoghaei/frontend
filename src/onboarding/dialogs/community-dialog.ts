@@ -37,7 +37,7 @@ class DialogCommunity extends LitElement {
         <a
           target="_blank"
           rel="noreferrer noopener"
-          href="https://community.home-assistant.io/"
+          href="#"
         >
           <ha-list-item hasMeta graphic="icon">
             <img src="/static/icons/favicon-192x192.png" slot="graphic" />
