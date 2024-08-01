@@ -46,7 +46,6 @@
   <body>
     <div class="content">
       <div class="header">
-        <img src="/static/icons/favicon-192x192.png" alt="Reverse CO" />
       </div>
       <ha-authorize></ha-authorize>
     </div>
