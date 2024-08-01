@@ -250,7 +250,7 @@ export class HaAuthFlow extends LitElement {
                   </ha-formfield>
                   <a
                     class="forgot-password"
-                    href="https://www.home-assistant.io/docs/locked_out/#forgot-password"
+                    href="https://reverseco.net/forgetpassword"
                     target="_blank"
                     rel="noreferrer noopener"
                     >${this.localize(
