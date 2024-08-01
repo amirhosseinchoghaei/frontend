@@ -58,7 +58,7 @@ const randomTip = (hass: HomeAssistant, narrow: boolean) => {
     {
       content: hass.localize("ui.panel.config.tips.join", {
         forums: html`<a
-          href="https://community.home-assistant.io"
+          href="#"
           target="_blank"
           rel="noreferrer"
           >${hass.localize("ui.panel.config.tips.join_forums")}</a
@@ -83,7 +83,7 @@ const randomTip = (hass: HomeAssistant, narrow: boolean) => {
         >`,
         newsletter: html`<span class="keep-together"
           ><a
-            href="https://newsletter.openhomefoundation.org/"
+            href="#"
             target="_blank"
             rel="noreferrer"
             >${hass.localize("ui.panel.config.tips.join_newsletter")}</a
@@ -143,9 +143,7 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
     if (isCloudLoaded) {
       pages.push({
         component: "cloud",
-        path: "/config/cloud2",
         name: "Cloud",
-        info: "خانه خود را از راه دور کنترل کنید",
         iconPath: mdiCloudLock,
         iconColor: "#4c00a7",
         translationKey: "cloud",
