@@ -115,11 +115,6 @@ class HaConfigInfo extends LitElement {
             <mwc-list>
               ${PAGES.map(
                 (page) => html`
-                  <ha-clickable-list-item
-                    graphic="avatar"
-                    openNewTab
-                    href=${documentationUrl(this.hass, page.path)}
-                  >
                     <div
                       slot="graphic"
                       class="icon-background"
