@@ -34,7 +34,19 @@ import { documentationUrl } from "../../../util/documentation-url";
 const JS_TYPE = __BUILD__;
 const JS_VERSION = __VERSION__;
 
-
+const PAGES = [
+  {
+    name: "improved By : reverseco.net",
+    path: "#",
+    iconPath: mdiFileDocument,
+    iconColor: "#518C43",
+  },
+] as const satisfies readonly {
+  name: string;
+  path: string;
+  iconPath: string;
+  iconColor: string;
+}[];
 
 @customElement("ha-config-info")
 class HaConfigInfo extends LitElement {
@@ -66,7 +78,7 @@ class HaConfigInfo extends LitElement {
       >
         <div class="content">
           <ha-card outlined class="header">
-            <p>Reverseco.net</p>
+            <p>Reverse</p>
             <ul class="versions">
               <li>
                 <span class="version-label">Core</span>
@@ -84,7 +96,10 @@ class HaConfigInfo extends LitElement {
                 : nothing}
               ${this._osInfo
                 ? html`
-              
+                    <li>
+                      <span class="version-label">Operating System</span>
+                      <span class="version">${this._osInfo.version}</span>
+                    </li>
                   `
                 : nothing}
               <li>
@@ -99,8 +114,6 @@ class HaConfigInfo extends LitElement {
               </li>
             </ul>
           </ha-card>
-        
-
           <ha-card outlined class="pages">
             <mwc-list>
               ${PAGES.map(
