@@ -46,7 +46,7 @@
   <body>
     <div class="content">
       <div class="header">
-        <h2 style="color:white;">Reverseco.net</h2>
+        <h2 style="color:blue;"><a href="https://reverseco.net">Reverseco.net</a></h2>
       </div>
       <ha-authorize></ha-authorize>
     </div>
