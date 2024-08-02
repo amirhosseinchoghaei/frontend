@@ -36,10 +36,7 @@ const JS_VERSION = __VERSION__;
 
 const PAGES = [
   {
-    name: "improved By : reverseco.net",
-    path: "#",
-    iconPath: mdiFileDocument,
-    iconColor: "#518C43",
+
   },
 ] as const satisfies readonly {
   name: string;
