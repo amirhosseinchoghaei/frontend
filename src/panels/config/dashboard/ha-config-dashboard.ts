@@ -144,6 +144,7 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
       pages.push({
         component: "cloud",
         name: "Cloud",
+        info: "Reverse Cloud",
         iconPath: mdiCloudLock,
         iconColor: "#4c00a7",
         translationKey: "cloud",
