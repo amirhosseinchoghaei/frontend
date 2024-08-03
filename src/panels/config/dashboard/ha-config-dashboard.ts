@@ -193,7 +193,7 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
 
           <ha-list-item graphic="icon">
             ${this.hass.localize(
-              "ui.panel.config.system_dashboard.restart_homeassistant"
+              "Restart Reverse"
             )}
             <ha-svg-icon slot="graphic" .path=${mdiPower}></ha-svg-icon>
           </ha-list-item>
